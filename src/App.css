@@ -1,4 +1,12 @@
 /* mixt-nav bar start css */
+.mixt-nav {
+  background: transparent !important;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
 .mixt-nav .navbar-brand {
   font-size: 1.85rem;
   font-weight: bold;
@@ -6,25 +14,35 @@
 .mixt-nav .navbar-brand .brand-first {
   color: #ed2f8e;
 }
+.mixt-nav .navbar-brand .brand-second {
+  color: white;
+}
 .mixt-nav .btn-login {
   border: 3px solid #ed2f8e;
   font-size: 1.35rem;
   padding: 0px 8px;
+  color: white;
 }
-.mixt-nav .btn-login:hover {
-}
+
 .mixt-nav .navbar-nav .nav-item {
   padding-right: 30px;
 }
 
 .mixt-nav .navbar-nav .nav-item .nav-link {
   font-size: 1.35rem;
+  color: white;
 }
 /* mixt-nav bar end css */
 
 /* banner css start*/
-.banner-wrapper{
-  background-color: aquamarine;
+.banner-wrapper {
+  background: rgb(4, 4, 17);
+  background: linear-gradient(
+    84deg,
+    rgba(4, 4, 17, 1) 0%,
+    rgba(7, 7, 36, 1) 90%,
+    rgba(237, 47, 142, 0.7791491596638656) 100%
+  );
   width: 100%;
   height: 650px;
 }
