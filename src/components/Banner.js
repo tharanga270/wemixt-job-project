@@ -28,6 +28,33 @@ function Banner() {
               </p>
             </div>
           </div>
+
+          <div className="row justify-content-center dots-row">
+            <div className="dots-wrapper">
+              <div className="dots">
+                <i class="fa-solid fa-chair"></i>
+              </div>
+              <span>Hair</span>
+            </div>
+            <div className="dots-wrapper">
+              <div className="dots">
+                <i class="fa-regular fa-paper-plane"></i>
+              </div>
+              <span>Nails</span>
+            </div>
+            <div className="dots-wrapper">
+              <div className="dots">
+                <i class="fa-solid fa-person-snowboarding"></i>
+              </div>
+              <span>Beard</span>
+            </div>
+            <div className="dots-wrapper">
+              <div className="dots">
+                <i class="fa-solid fa-sink"></i>
+              </div>
+              <span>Skin</span>
+            </div>
+          </div>
         </div>
       </section>
     </>

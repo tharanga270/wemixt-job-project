@@ -40,10 +40,7 @@ function Header() {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <button
-                className="btn btn-login"
-                type="submit"
-              >
+              <button className="btn btn-login" type="submit">
                 Log In
               </button>
             </form>

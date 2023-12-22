@@ -79,11 +79,6 @@
 }
 
 .banner-right {
-  /* width: 40%;
-  height: 500px;
-  position: absolute;
-  right: 104px;
-  z-index: 1; */
   border: 1px solid red;
 }
 .banner-right span {
@@ -110,6 +105,36 @@
   margin-top: 35px;
   color: #afaaaa;
   font-size: 18px;
+}
+.dots-row{
+  margin-top: 120px;
+}
+.dots {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ed2f8e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots-wrapper .dots i {
+  color: white;
+  font-size: 28px;
+}
+.dots-wrapper {
+  width: 135px;
+  height: 60px;
+  /* border: 1px solid red; */
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots-wrapper span{
+  color: white;
+  font-size: 20px;
+  padding-left: 8px;
 }
 /* banner css end*/
 
@@ -168,7 +193,14 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  .banner-wrapper .img-3 {
+    left: 155px;
+  }
 }
 @media only screen and (max-width: 375px) {
+  .banner-wrapper .img-3 {
+    left: 110px;
+    top: 125px;
+  }
 }
 /* media query end */
