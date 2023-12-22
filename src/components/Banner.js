@@ -5,7 +5,7 @@ function Banner() {
   return (
     <>
       <section className="banner-wrapper">
-        <div style={{ border: '1px solid red' }} className="container px-0">
+        <div style={{ border: '1px solid transparent' }} className="container px-0">
           <div className="row" style={{ marginTop: '300px' }}>
             <div className="col-md-7 col7">
               <div style={{ position: 'relative' }}>
@@ -32,25 +32,25 @@ function Banner() {
           <div className="row justify-content-center dots-row">
             <div className="dots-wrapper">
               <div className="dots">
-                <i class="fa-solid fa-chair"></i>
+                <i className="fa-solid fa-chair"></i>
               </div>
               <span>Hair</span>
             </div>
             <div className="dots-wrapper">
               <div className="dots">
-                <i class="fa-regular fa-paper-plane"></i>
+                <i className="fa-regular fa-paper-plane"></i>
               </div>
               <span>Nails</span>
             </div>
             <div className="dots-wrapper">
               <div className="dots">
-                <i class="fa-solid fa-person-snowboarding"></i>
+              <i className="fa-solid fa-palette"></i>
               </div>
               <span>Beard</span>
             </div>
             <div className="dots-wrapper">
               <div className="dots">
-                <i class="fa-solid fa-sink"></i>
+                <i className="fa-solid fa-sink"></i>
               </div>
               <span>Skin</span>
             </div>

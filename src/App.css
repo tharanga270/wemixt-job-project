@@ -44,10 +44,11 @@
     rgba(237, 47, 142, 0.6082808123249299) 100%
   );
   width: 100%;
-  height: 1300px;
+  /* height: 1300px; */
+  height: 1000px;
 }
 .banner-wrapper .col7 {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 420px;
 }
 
@@ -79,7 +80,7 @@
 }
 
 .banner-right {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .banner-right span {
   text-transform: uppercase;
@@ -106,7 +107,7 @@
   color: #afaaaa;
   font-size: 18px;
 }
-.dots-row{
+.dots-row {
   margin-top: 120px;
 }
 .dots {
@@ -131,7 +132,7 @@
   justify-content: center;
   align-items: center;
 }
-.dots-wrapper span{
+.dots-wrapper span {
   color: white;
   font-size: 20px;
   padding-left: 8px;
@@ -141,6 +142,7 @@
 /* =========================== */
 /* media query start */
 @media only screen and (max-width: 1200px) {
+
 }
 @media only screen and (max-width: 1024px) {
   .banner-wrapper .img-1 {
@@ -156,6 +158,9 @@
   }
 }
 @media only screen and (max-width: 991.98px) {
+  .navbar-toggler{
+    background-color:#ed2f8e;
+  }
   .banner-wrapper .img-2 {
     width: 200px;
     height: 250px;
@@ -179,6 +184,9 @@
   }
 }
 @media only screen and (max-width: 767.98px) {
+  .banner-wrapper {
+    height: 1200px;
+  }
   .banner-wrapper .img-1 {
     width: 280px;
     top: 90px;
@@ -191,16 +199,53 @@
     width: 250px;
     left: 260px;
   }
+  .dots {
+    width: 45px;
+    height: 45px;
+  }
+  .dots-wrapper {
+    margin-right: 8px;
+    /* width: 120px; */
+    width: 125px;
+  }
+  .dots-wrapper .dots i {
+    font-size: 17px;
+  }
 }
 @media only screen and (max-width: 425px) {
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+  .banner-wrapper {
+    height: 1350px;
+  }
   .banner-wrapper .img-3 {
     left: 155px;
+  }
+  .mixt-nav .navbar-brand {
+    padding-left: 20px;
+  }
+  .banner-wrapper .img-1 {
+    width: 260px;
+    left: 20px;
+  }
+  .banner-right {
+    padding-right: 30px;
+  }
+  .banner-right p {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 375px) {
   .banner-wrapper .img-3 {
     left: 110px;
     top: 125px;
+  }
+  .dots-wrapper {
+    width: 140px;
+  }
+  .banner-right p {
+    font-size: 14px;
   }
 }
 /* media query end */
