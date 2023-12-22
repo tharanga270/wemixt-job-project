@@ -2,7 +2,7 @@ function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary mixt-nav">
-        <div className="container">
+        <div className="container px-0">
           <a className="navbar-brand" href={'#'}>
             <span className="brand-first">STYLISH</span>{' '}
             <span className="brand-second">HAIR</span>
